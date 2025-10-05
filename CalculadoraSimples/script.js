@@ -1,3 +1,4 @@
+// João Vitor Martinelli e Danielle Chagas
 
 const num1 = document.getElementById("num1");
 const num2 = document.getElementById("num2");
@@ -26,7 +27,7 @@ switch (operacao) {
         break;
     case "divisao":
         if (valor2 === 0) {
-            alert("divisão por zero jhow");
+            alert("divisão por zero !");
             return;
         }
         resultado = valor1 / valor2;
